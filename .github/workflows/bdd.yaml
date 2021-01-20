@@ -10,6 +10,6 @@ jobs:
     - name: Kind
       env:
         LOG: console
-        
+
       run: |
         sudo -E ./jx3-kind.sh ci

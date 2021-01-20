@@ -3,7 +3,7 @@ on:
   # pull_request: {}
   workflow_dispatch: {}
 jobs:
-  kind:
+  reverse-ssh-tunnel:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
